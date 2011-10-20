@@ -34,3 +34,6 @@ void SubVector4(const vector4 & a, const vector4 & b, vector4 & result);
 void MulVector4(const vector4 & a, const vector4 & b, vector4 & result);
 void DivVector4(const vector4 & a, const vector4 & b, vector4 & result);
 void ScaleVector4(const vector4 & input, const float & scalar, vector4 & result);
+
+void CrossVector3(const vector3 & a, const vector3 & b, vector3 & result);
+void DotVector3(const vector3 & a, const vector3 & b, float & result);
