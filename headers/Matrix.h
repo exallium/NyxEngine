@@ -1,6 +1,7 @@
 #pragma once
 
 //Matrix.h
+//Includes struct and function prototypes
 
 struct matrix
 {
