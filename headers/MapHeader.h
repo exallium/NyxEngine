@@ -16,9 +16,10 @@ struct FileMagic
 
 struct MapHeader
 {
-	FileMagic 		Magic;
-	MapDataBlock 	VertexInfo;
-	MapDataBlock 	IndexInfo;
-	MapDataBlock 	TagsInfo;
-	MapDataBlock 	StringsInfo;
+	FileMagic Magic;
+	MapDataBlock VertexInfo;
+	MapDataBlock IndexInfo;
+	MapDataBlock MapInfo;
+	MapDataBlock TagsInfo;
+	MapDataBlock StringsInfo;
 };
