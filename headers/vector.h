@@ -10,7 +10,7 @@ struct vector2
 struct vector3
 {
 	float x,y,z;
-}
+};
 
 struct vector4
 {
